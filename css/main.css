@@ -1,0 +1,203 @@
+/*****BASE STYLES*****/
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #2b2b2b;
+  background-color: #e6f2ff;
+}
+
+
+/******GRID*****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+
+}
+
+/******HEADER*****/
+
+#header  {                                /*******background image****/
+  height: 800px;                          /*****instructions*****/
+  background: url("../img/white-leaf.jpg") no-repeat 0px 0px white;
+  background-size: cover;        /*******instrudor******/
+  background-position: center;   /******instructor*****/
+  }
+
+#header h1 {                       /******Jubilee Austen******/
+  font-family: 'Lora', serif; /****form***/
+  padding: 15px 0 25px 25px;    /****instructions****/
+  font-weight: normal;        /*****instructions****/
+  color: #0059b3;           /*****form*****/
+  font-size: 30px;
+}
+
+nav {                 /********nav is instructed***/
+  float: right;
+  padding: 70px 25px;
+}
+
+nav ul li {          /*******instructed******/
+  display: inline-block;
+}
+
+nav ul li a {
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: 18px;           /****from form****/
+  color: #0059b3;             /******from form*****/
+  padding-left: 40px;          /******from form*****/
+}
+
+#header h2 {
+  width:inherit;
+  clear: both;                 /****correct****/
+  font-family: 'Lora', serif;/****from form****/
+  font-size: 60px;                /****from form*****/
+  line-height: 75px;           /*****from form*****/
+  color: #0059b3;            /****or #9b9b9b****/
+}
+
+#header span {               /*********Hi!******/
+      font-family: 'Lora', serif;  /***correct***/
+      font-size: 72px;
+      color: #2b2b2b;
+
+}
+
+#header li {
+  font-family: 'Soure Sans Pro', serif;
+  color: #828282;
+  font-size: 18px;
+  word-spacing: 80px;
+}
+
+/*******ABOUT********/
+
+
+#about .full-width {
+    padding: 20px 0;
+}
+
+#about h2 {                  /*******Jubilee Austen****/
+  font-family: 'Lora', serif;
+  font-size: 36px;
+  padding-left: 50px;
+}
+
+
+#about p {                  /********article*********/
+    font-size: 21px;
+    color: #7F7F7F;
+    line-height: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/******WORK******/
+
+#work {
+    background-color: #f9ceb7;
+    text-align: center;
+}
+
+#work .full-width {
+  padding: 115px 0;
+}
+
+#work img {
+  padding-bottom: 30px
+}
+
+#work h3 {
+    font-size: 24px;
+    line-height: 32px;
+    width: 190px;
+    margin: 0 auto;
+}
+
+#work p {
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  line-height: 30px;
+  padding: 0 50px;
+}
+
+/*******CONTACT*****/
+
+#contact {                      /****background color for contact****/
+  background-color: #ffcc99;
+}
+
+#contact .full-width {       /****full-width page*instructions***website instructions***/
+      padding: 80px 0;
+}
+
+
+/* closed up the space between img and #contact-img */
+#contact img#contact-img {     /***image of woman at desk, instructions****/
+      margin-left: 25px;
+      border: 12px solid #ffffff;
+      height: 400px;
+      width: 350px;     
+}
+
+#contact h2, #contact, #email-header, #contact, #socialmedia-header, #contact ul
+{
+      padding-left: 10px;
+
+}
+
+#contact #envelope {
+      padding: 0 10px 0 5px;
+}
+
+#contact h2 {              /******Like What You See?****/
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+#contact #email-header {           /********Let's meet for coffee*****/
+    font-size:  32px;
+    font-weight: 400;
+    line-height: 44px;
+    margin: 10px 0 5px 5px;
+}
+
+#contact #socialmedia-header {        /*******find me on the interwebs*****/
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 44px;
+    margin: 30px 0 0 0;
+}
+#contact a {
+    text-decoration: none;
+    color: #c49075;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+#contact ul {
+    list-style: none;
+}
+
+#contact ul li {
+     display: inline-block;
+}
+
+#contact ul img {
+    padding-right: 48px;
+}
