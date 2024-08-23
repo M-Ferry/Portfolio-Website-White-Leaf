@@ -30,48 +30,49 @@ body {
 /******HEADER*****/
 
 #header  {                                /*******background image****/
-  height: 800px;                          /*****instructions*****/
-  background: url("../img/white-leaf.jpg") no-repeat 0px 0px white;
-  background-size: cover;        /*******instrudor******/
-  background-position: center;   /******instructor*****/
+  height: 600px;                          
+  background: url("../img/white-flowing.jpg") no-repeat 0px 0px white;
+  background-size: cover;       
+  background-position: center; 
   }
 
-#header h1 {                       /******Jubilee Austen******/
-  font-family: 'Lora', serif; /****form***/
-  padding: 15px 0 25px 25px;    /****instructions****/
-  font-weight: normal;        /*****instructions****/
-  color: #0059b3;           /*****form*****/
+#header h1 {                      
+  font-family: 'Lora', serif; 
+  padding: 15px 0 25px 25px;   
+  font-weight: normal;       
+  color: #0059b3;          
   font-size: 30px;
 }
 
-nav {                 /********nav is instructed***/
+nav {                 /********nav**/
   float: right;
   padding: 70px 25px;
 }
 
-nav ul li {          /*******instructed******/
+nav ul li {          
   display: inline-block;
 }
 
 nav ul li a {
   text-transform: capitalize;
   text-decoration: none;
-  font-size: 18px;           /****from form****/
-  color: #0059b3;             /******from form*****/
-  padding-left: 30px;          /******from form*****/
+  font-size: 18px;       
+  color: #0059b3;            
+  padding-left: 30px;        
 }
 
 #header h2 {
   width:inherit;
-  clear: both;                 /****correct****/
-  font-family: 'Lora', serif;/****from form****/
-  font-size: 60px;                /****from form*****/
-  line-height: 75px;           /*****from form*****/
-  color: #0059b3;            /****or #9b9b9b****/
+  clear: both;                 
+  font-family: 'Lora', serif;
+  font-size: 60px;              
+  line-height: 75px;           
+  color: #0059b3;  
+  font-weight: 400;        
 }
 
 #header span {               /*********Hi!******/
-      font-family: 'Lora', serif;  /***correct***/
+      font-family: 'Lora', serif;  
       font-size: 72px;
       color: #2b2b2b;
 
@@ -79,7 +80,7 @@ nav ul li a {
 
 #header h4 {
   font-family: 'Lora', serif;
-  font-size: 30px;
+  font-size: 20px;
   padding-top: 150px;
 }
 
@@ -98,7 +99,7 @@ nav ul li a {
     padding: 20px 0;
 }
 
-#about h2 {                  /*******Jubilee Austen****/
+#about h2 {                  
   font-family: 'Lora', serif;
   font-size: 36px;
   padding-left: 50px;
@@ -116,12 +117,17 @@ nav ul li a {
 /******WORK******/
 
 #work {
-    background-color: #f9ceb7;
+    background-color: #c2d4e4;
     text-align: center;
 }
 
 #work .full-width {
-  padding: 115px 0;
+  padding: 30px 0;
+}
+
+#work h2 {
+  font-size: 40px;
+  text-align: left;
 }
 
 #work img {
@@ -148,13 +154,13 @@ nav ul li a {
   background-color: #ffcc99;
 }
 
-#contact .full-width {       /****full-width page*instructions***website instructions***/
+#contact .full-width {       /****full-width page****/
       padding: 80px 0;
 }
 
 
 /* closed up the space between img and #contact-img */
-#contact img#contact-img {     /***image of woman at desk, instructions****/
+#contact img#contact-img {     /***image ***/
       margin-left: 25px;
       border: 12px solid #ffffff;
       height: 400px;
